@@ -2,23 +2,33 @@
 
 Homebrew formulae for moukrea projects.
 
-## Usage
+## Adding the Tap
 
 ```bash
 brew tap moukrea/tap
-brew install opaq
+```
+
+## Available Formulae
+
+| Formula | Description |
+|---------|-------------|
+| `opaq` | Credential manager — keeps secrets out of terminals, context windows, and command output |
+
+Install any formula with:
+
+```bash
+brew install <formula-name>
 ```
 
 ## Upgrade
 
 ```bash
-brew update
-brew upgrade opaq
+brew update && brew upgrade <formula-name>
 ```
 
 ## Uninstall
 
 ```bash
-brew uninstall opaq
-brew untap moukrea/tap  # optional
+brew uninstall <formula-name>
+brew untap moukrea/tap  # removes the tap entirely
 ```
