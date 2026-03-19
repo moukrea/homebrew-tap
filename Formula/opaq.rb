@@ -1,28 +1,28 @@
 class Opaq < Formula
   desc "Credential manager that keeps secrets out of terminals, agent context windows, shell histories, and command output"
   homepage "https://github.com/moukrea/opaq"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/moukrea/opaq/releases/download/0.1.7/opaq-0.1.7-macos-x86_64.tar.gz"
-      sha256 "0b467aa2dc1231413d9a81466b806cac665a9fe43e38ee806218055e15b384cd"
+      url "https://github.com/moukrea/opaq/releases/download/0.1.8/opaq-0.1.8-macos-x86_64.tar.gz"
+      sha256 "5432b7f24a51cbd2dab6357600dfce29b366ca3e578cb4e2437ae08328a3e481"
     end
     on_arm do
-      url "https://github.com/moukrea/opaq/releases/download/0.1.7/opaq-0.1.7-macos-aarch64.tar.gz"
-      sha256 "e02c3a4b22320f34e583c49f6cc7dbe3b1cf39860afae7ff4bc9021f7e5e2be3"
+      url "https://github.com/moukrea/opaq/releases/download/0.1.8/opaq-0.1.8-macos-aarch64.tar.gz"
+      sha256 "00697ac508b163ce5168e890c8da732a6c2d7257055dd75a31c368c284ed3897"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/moukrea/opaq/releases/download/0.1.7/opaq-0.1.7-linux-x86_64.tar.gz"
-      sha256 "b13251bfe28d3c10d6637b9aff0104a96a0d0423e9a23d0c75fb715751512754"
+      url "https://github.com/moukrea/opaq/releases/download/0.1.8/opaq-0.1.8-linux-x86_64.tar.gz"
+      sha256 "a68ac0e6fb6c00d9980861362c8920e98c58b8d71f6c5785f6a10a394b8d8d0d"
     end
     on_arm do
-      url "https://github.com/moukrea/opaq/releases/download/0.1.7/opaq-0.1.7-linux-aarch64.tar.gz"
-      sha256 "9d8fd47446dd2e7c995ddd9bf6c843a029b3e020a7093f217fe19651c19d99c9"
+      url "https://github.com/moukrea/opaq/releases/download/0.1.8/opaq-0.1.8-linux-aarch64.tar.gz"
+      sha256 "7d877ad342f1ecc32498a4b9fdd75794d39fbad9c310366ec567a816176b2bae"
     end
   end
 
