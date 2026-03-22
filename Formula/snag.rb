@@ -1,17 +1,17 @@
 class Snag < Formula
   desc "Local PTY session multiplexer — spawn, discover, attach to, and interact with any shell session"
   homepage "https://github.com/moukrea/snag"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_linux do
     on_intel do
-      url "https://github.com/moukrea/snag/releases/download/0.1.0/snag-0.1.0-linux-x86_64.tar.gz"
-      sha256 "5446a7118ae2938a3e720f0c4eb02673937b0eeddb26dff7f4e9b9ae84551990"
+      url "https://github.com/moukrea/snag/releases/download/0.1.1/snag-0.1.1-linux-x86_64.tar.gz"
+      sha256 "1a133e6044beec752572c6e495b99f3494bcf5202f1d47564431ff6a7303851d"
     end
     on_arm do
-      url "https://github.com/moukrea/snag/releases/download/0.1.0/snag-0.1.0-linux-aarch64.tar.gz"
-      sha256 "ee4d84be42552f7b568b2b80b277145d3b89fb1b82b9cd0d0acccaebc4a2483c"
+      url "https://github.com/moukrea/snag/releases/download/0.1.1/snag-0.1.1-linux-aarch64.tar.gz"
+      sha256 "eac86558ffa532a7350270d8d6c6763674a122a317707c73e4addf3eabdd59a5"
     end
   end
 
