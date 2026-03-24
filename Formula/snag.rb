@@ -7,11 +7,11 @@ class Snag < Formula
   on_linux do
     on_intel do
       url "https://github.com/moukrea/snag/releases/download/0.1.0/snag-0.1.0-linux-x86_64.tar.gz"
-      sha256 "c69105cbc4ca1fd993f0fae58680a790aafa44051a69e3afb8a904326a362e1d"
+      sha256 "bc4f66b11dee3dc5d1fcc0afdf3366ed3c9032f2a81dc5c0d6c3c0022650ae55"
     end
     on_arm do
       url "https://github.com/moukrea/snag/releases/download/0.1.0/snag-0.1.0-linux-aarch64.tar.gz"
-      sha256 "8bee3ae90d33ee8462fb97099d9a23745a8678851603b3953cae9ec7a283e816"
+      sha256 "c23d8fdd3197b7cf412de10d585f36bbd7d160fefdd3b72e39e5ffaa7edb75c1"
     end
   end
 
