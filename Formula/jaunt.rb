@@ -1,17 +1,17 @@
 class Jaunt < Formula
   desc "Access your machine's shell sessions from any device, anywhere, with zero infrastructure"
   homepage "https://github.com/moukrea/jaunt"
-  version "0.6.1"
+  version "0.6.2"
   license "MIT"
 
   on_linux do
     on_intel do
-      url "https://github.com/moukrea/jaunt/releases/download/0.6.1/jaunt-0.6.1-linux-x86_64.tar.gz"
-      sha256 "c21c32b716206b1a05d9eb044bcf4cb70675378900bd7f8f4442b885f8705e59"
+      url "https://github.com/moukrea/jaunt/releases/download/0.6.2/jaunt-0.6.2-linux-x86_64.tar.gz"
+      sha256 "16cfe50d6bd8af6a46c9edc24e19abdbe2a4741ca3e9037d8f22b44dc91490b6"
     end
     on_arm do
-      url "https://github.com/moukrea/jaunt/releases/download/0.6.1/jaunt-0.6.1-linux-aarch64.tar.gz"
-      sha256 "c767c6359cf78a8073f7a1893fe6c64d824f4511b45082b1131086a090d0d5b9"
+      url "https://github.com/moukrea/jaunt/releases/download/0.6.2/jaunt-0.6.2-linux-aarch64.tar.gz"
+      sha256 "26c61e75db72e1b8e178a8b336ea567732619aec04850f3ca9df68e47dd9788d"
     end
   end
 
