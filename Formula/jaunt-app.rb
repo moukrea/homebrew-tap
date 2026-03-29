@@ -1,16 +1,16 @@
 class JauntApp < Formula
   desc "Jaunt desktop app — access your machine from any device (native UI)"
   homepage "https://github.com/moukrea/jaunt"
-  version "0.11.2"
+  version "0.12.0"
   license "MIT"
 
   on_linux do
     on_intel do
-      url "https://github.com/moukrea/jaunt/releases/download/0.11.2/jaunt-app-0.11.2-linux-x86_64.AppImage"
+      url "https://github.com/moukrea/jaunt/releases/download/0.12.0/jaunt-app-0.12.0-linux-x86_64.AppImage"
       sha256 ""
     end
     on_arm do
-      url "https://github.com/moukrea/jaunt/releases/download/0.11.2/jaunt-app-0.11.2-linux-aarch64.AppImage"
+      url "https://github.com/moukrea/jaunt/releases/download/0.12.0/jaunt-app-0.12.0-linux-aarch64.AppImage"
       sha256 ""
     end
   end
