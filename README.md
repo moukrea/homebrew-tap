@@ -13,6 +13,7 @@ brew tap moukrea/tap
 | Formula | Description |
 |---------|-------------|
 | `opaq` | Credential manager — keeps secrets out of terminals, context windows, and command output |
+| `sshx-mobile-host` | Reach your computer's shell from your phone, anywhere, with zero infrastructure |
 
 Install any formula with:
 
