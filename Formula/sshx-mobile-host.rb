@@ -1,10 +1,10 @@
 class SshxMobileHost < Formula
   desc "Host tooling for sshx-mobile: persistent tmux + sshx + resolver to reach your shell from a phone"
   homepage "https://github.com/moukrea/sshx-mobile"
-  version "1.0.8"
+  version "1.0.9"
   license "MIT"
-  url "https://github.com/moukrea/sshx-mobile/releases/download/1.0.8/sshx-mobile-host-1.0.8.tar.gz"
-  sha256 "98a23f48d89993d5aa221a1f30a78bea8038454f29222c7a6fa8ada14bcafe2d"
+  url "https://github.com/moukrea/sshx-mobile/releases/download/1.0.9/sshx-mobile-host-1.0.9.tar.gz"
+  sha256 "1d7b52cd99883b19a2c67f1ea0e8f5e4adf235215f737b9278031456ea1a4c89"
 
   depends_on :linux
   depends_on "tmux"
@@ -20,9 +20,8 @@ class SshxMobileHost < Formula
 
   def caveats
     <<~EOS
-      Linux + systemd only (the host runs per-user systemd services).
-      Run 'sshx-host-setup' to deploy the services and print a QR to scan in the app;
-      it will offer to install the 'sshx' CLI (https://sshx.io) if missing.
+      Run 'sshx-host-setup' to deploy the per-user services and print a QR to scan in the app.
+      You also need the 'sshx' CLI on this host (https://sshx.io).
     EOS
   end
 
