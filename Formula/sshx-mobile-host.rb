@@ -1,10 +1,10 @@
 class SshxMobileHost < Formula
   desc "Host tooling for sshx-mobile: persistent tmux + sshx + resolver to reach your shell from a phone"
   homepage "https://github.com/moukrea/sshx-mobile"
-  version "1.0.16"
+  version "1.0.17"
   license "MIT"
-  url "https://github.com/moukrea/sshx-mobile/releases/download/1.0.16/sshx-mobile-host-1.0.16.tar.gz"
-  sha256 "d98852a38973884d3a5792baa5d77ad782b3ebf587909488390c28adb7f497d1"
+  url "https://github.com/moukrea/sshx-mobile/releases/download/1.0.17/sshx-mobile-host-1.0.17.tar.gz"
+  sha256 "db98fb3029c87d3f63dcd826b1a16f213fa94eefb83ea220da61c17614afe0a5"
 
   depends_on :linux
   depends_on "tmux"
